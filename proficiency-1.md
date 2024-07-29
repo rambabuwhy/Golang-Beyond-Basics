@@ -1,5 +1,7 @@
 # Proficiency-1
 
+## errgroup vs WaitGroup
+
 The choice between using the `errgroup` package and managing goroutines manually with `sync.WaitGroup` and channels depends on your specific needs and preferences. Here are some factors to consider:
 
 #### Using `errgroup` (Preferred for Simplicity and Readability)
